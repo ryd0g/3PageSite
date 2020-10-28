@@ -12,7 +12,7 @@
       href="https://bootswatch.com/4/darkly/bootstrap.min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="moreinfo.css" />
     <title>TimePro ⌚️</title>
   </head>
   <body>
@@ -63,7 +63,7 @@
             placeholder="Email"
           />
           <input type="date" class="form-control mb-2 mr-sm-2" />
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          <button type="submit" onclick="buttonClick()" class="btn btn-primary mb-2">Submit</button>
         </form>
       </div>
     </div>
@@ -73,5 +73,10 @@
     <script>
       AOS.init();
     </script>
+     <script>
+        function buttonClick() {
+          alert('Thanks for signing up!');
+        }
+      </script>
   </body>
 </html>
