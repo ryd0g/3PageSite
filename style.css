@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url(/courses/SPD1.2/PageClone/images/home-bg.jpeg);
+  min-height: 670px;
+  justify-content: center;
+}
+h1,
+.jumbotron > p {
+  color: white;
+}
+button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+body {
+  color: darkgrey;
+}
+h2,
+h3 {
+  color: black;
+}
+.nav-item {
+  color: black;
+}
+.navbar-brand {
+  color: red;
+}
