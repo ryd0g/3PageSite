@@ -1,27 +1,26 @@
+.navbar {
+  padding: 1rem;
+}
+.footer {
+  padding: 1rem;
+}
 .jumbotron {
-  background-image: url(/courses/SPD1.2/PageClone/images/home-bg.jpeg);
-  min-height: 670px;
-  justify-content: center;
+  background-image: url(images/hero-bg.jpeg);
+  min-height: 280px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
-h1,
-.jumbotron > p {
-  color: white;
+img {
+  padding: 5px;
 }
-button {
-  background-color: red;
-  color: white;
-  border-radius: 5px;
-}
-body {
-  color: darkgrey;
-}
-h2,
-h3 {
-  color: black;
-}
-.nav-item {
-  color: black;
-}
-.navbar-brand {
-  color: red;
+.col-lg-4 {
+  border: 3px solid white;
+  border-radius: 4px;
 }
