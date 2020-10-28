@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://bootswatch.com/4/darkly/bootstrap.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>TimePro ⌚️</title>
   </head>
@@ -40,7 +41,7 @@
       <div class="container mb-5 mt-5 pb-5 pt-5">
         <h1 class="features-title text-center">Some of Our Features</h1>
         <div class="row m-5">
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1100">
             <img src="images/card-1.jpeg" class="img-fluid rounded" />
             <h3>Time Blocking</h3>
             <p class="lead">
@@ -50,7 +51,7 @@
               classes or other activities.
             </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1100">
             <img src="images/card-2.jpeg" class="img-fluid rounded" />
             <h3>Calendar Planning</h3>
             <p class="lead">
@@ -60,7 +61,7 @@
               and time to make sure everything gets done.
             </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1100">
             <img src="images/card-3.jpeg" class="img-fluid rounded" />
             <h3>Groups</h3>
             <p class="lead">
@@ -90,5 +91,9 @@
     </div>
     <!-- FOOTER -->
     <div class="footer bg-lighter p-4 text-white">&copy; Ryan Lee 2020</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
