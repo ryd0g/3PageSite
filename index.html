@@ -98,7 +98,7 @@
     <div class="jumbotron text-center mb-0">
       <p class="lead mb-4">Sign Up for More Infomation</p>
       <div class="d-flex justify-content-center">
-        <form action="#" class="form-inline">
+        <form class="form-inline" action="javascript:void(0);">
           <input
             type="text"
             class="form-control mb-2 mr-sm-2"
@@ -116,13 +116,18 @@
             id="message"
             rows="3"
           ></textarea>
-          <button
-            type="submit"
-            onclick="buttonClick()"
-            class="btn btn-primary mb-2"
-          >
-            Submit
-          </button>
+          <button class="btn btn-primary mb-2">Submit</button>
+          <div class="alert alert-dark alert-dismissable">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-hidden="true"
+            >
+              &times;
+            </button>
+            Thanks for signing up!
+          </div>
         </form>
       </div>
     </div>
@@ -133,9 +138,11 @@
       AOS.init();
     </script>
     <script>
-      function buttonClick() {
-        alert('Thanks for signing up!');
-      }
+      $(document).ready(function () {
+        $('button').click(function () {
+          $('.alert').show();
+        });
+      });
     </script>
   </body>
 </html>
