@@ -31,3 +31,6 @@ img {
 label {
   padding-bottom: 5px;
 }
+.alert {
+  display: none;
+}
