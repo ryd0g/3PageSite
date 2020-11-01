@@ -116,7 +116,7 @@
             id="message"
             rows="3"
           ></textarea>
-          <button class="btn btn-primary mb-2">Submit</button>
+          <button class="btn btn-primary mb-2" id="submit">Submit</button>
           <div class="alert alert-dark alert-dismissable">
             <button
               type="button"
@@ -139,7 +139,7 @@
     </script>
     <script>
       $(document).ready(function () {
-        $('button').click(function () {
+        $(document.getElementById('submit')).click(function () {
           $('.alert').show();
         });
       });
